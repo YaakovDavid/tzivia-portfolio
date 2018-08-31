@@ -136,6 +136,7 @@ img{
   width: 100%;
   max-width: 100%;
   border-radius: .35rem .35rem 0 0;
+  height: 300px;
 }
 
 img:hover{
@@ -175,13 +176,114 @@ nav > ul > li{
 
 .pod-card{
   /* width: 23%; */
-  width: 40%;
+  width: 30%;
   /* height: 350px; */
-  /* float: left; */
+  float: left;
   margin: 0 1% 2rem 1%;
   -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.25);
   box-shadow: 0 1px 1px 0 rgba(0,0,0,0.25);
   border-radius: .35rem;
+  background-color: rgb(68, 190, 190);
+
+}
+
+/* span{
+  background-color: teal;
+} */
+
+.logos, .posters, .invitations, .emails, .monograms, .packging, .brochures, .web-images, .pod-card{
+    color: white;
+    text-align: center;
+    height: 300px;
+    width: 30%;
+}
+
+.title{
+  position: relative;
+  top: 100px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logos {
+  background-image:
+    linear-gradient(
+      rgba(68, 190, 190, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/schwartz.jpg);
+}
+
+.posters{
+  background-image:
+    linear-gradient(
+      rgba(68, 190, 190, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/nine-vision.jpg);
+}
+
+.invitations{
+  background-image:
+    linear-gradient(
+      rgba(68, 190, 190, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/yossi.jpg);
+}
+
+.emails{
+  background-image:
+    linear-gradient(
+      rgba(68, 190, 190, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/peter-pan.jpg);
+}
+
+.monograms{
+  background-image:
+    linear-gradient(
+      rgba(68, 190, 190, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/anagram1.jpg);
+}
+
+.packging{
+  background-image:
+    linear-gradient(
+      rgba(68, 190, 190, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/yossi.jpg);
+}
+
+.brochures{
+  background-image:
+    linear-gradient(
+      rgba(68, 190, 190, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/paint.jpg);
+}
+
+.web-images{
+  background-image:
+    linear-gradient(
+      rgba(68, 190, 190, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/adults.jpg);
+}
+
+.postcards{
+  background-image:
+    linear-gradient(
+      rgba(68, 190, 190, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/rand-com.jpg);
 }
 
 a{
@@ -190,14 +292,30 @@ a{
 }
 
 .banner{
-  /* background-image: url(images/header.jpg); */
-  background-image: url(images/new-heading.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background-color: rgb(68, 190, 190);
+  height: 60vh;
+  color: white;
+  font-size: 230px;
+  font-weight: 700;
+  text-align: center;
+  padding: 100px 0 0;
+  text-transform: uppercase;
+}
+
+.sub-header{
+  height: 30px;
+  background-color: rgb(68, 190, 190);
   margin-bottom: 4rem;
-  height: 80vh;
-  /* border-bottom: 2px solid rgb(0, 0, 71);  */
+  text-align: center;
+}
+
+.home, .about, .portfolio{
+
+  max-width: 700px;
+  /* margin: 0 auto; */
+  color: white;
+  padding: 0 25px;
+
 }
 
 h1{
@@ -235,18 +353,17 @@ h2{
 
 
 
-.invitations > img{
-  border-radius: 55px;
-  margin: 20px 0;
-}
+
 
 .invitation{
   background-color: rgb(68, 190, 190);
   height: 20px;
   border-radius: 55px;
   margin: 20px 0;
-  /* text-align: center; */
+  text-align: center;
   color: white;
-  padding: 5px 0 7px 15px;
+  /* padding: 5px 0 7px; */
   font-weight: 600;
 }
+
+
