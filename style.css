@@ -279,8 +279,8 @@ h2{
   height: 20px;
   border-radius: 55px;
   margin: 20px 0;
-  text-align: center;
+  /* text-align: center; */
   color: white;
-  padding: 5px;
+  padding: 5px 0 7px 15px;
   font-weight: 600;
 }
