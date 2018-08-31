@@ -1,23 +1,12 @@
-:root{
-  --white: #FFFFFF;
-  --highlight: #d2674e;
-  --dark: #22292e;
-}
-
-.wrapper_wide{
-  width: 90%;
-  margin: 0 auto;
-}
-
 .wrapper{
   width: 80%;
   margin: 0 auto;
 }
 
-.wrapper_skinny{
+/* .wrapper_skinny{
   width: 50%;
   margin: 0 auto;
-}
+} */
 
 body{
   margin: 0;
@@ -25,33 +14,12 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-
-
-#logo{
-  float: left;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: var(--dark);
-  text-decoration: none;
-}
-
-
-/* nav{
-  float: right;
-} */
-
 ul{
   list-style: none;
-  margin: 0;
 }
 
-li{
-  /* display: inline; */
-  margin-left: 2.5rem;
-}
 
 a{
-  color: var(--white);
   text-decoration: none;
 }
 
@@ -64,115 +32,6 @@ a{
   clear: both;
 }
 
-h1{
-  color: var(--dark);
-  font-size: 3.5rem;
-  font-weight: 300;
-  letter-spacing: 1px;
-  margin: 7rem 0 2rem;
-}
-
-.button{
-  color: var(--white);
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 1rem 2rem;
-  border-radius: 2rem;
-  outline: none;
-  border: none;
-  display: inline-block;
-  min-width: 8.5rem;
-  margin: 1.5rem 2.5% 0;
-}
-
-.button_highlight{
-  background-color: var(--highlight);
-  transition: background .4s ease-in-out;
-}
-
-.button_highlight:hover{
-  background-color: #ba492f;
-}
-
-.button_white{
-  background-color: var(--white);
-  color: var(--dark);
-  transition: background .4s ease-in-out;
-}
-
-.button_white:hover{
-  background-color: #d6cccc;
-}
-
-
-.main_header{
-  color: var(--dark);
-  background-color:var(--white);
-  padding: 2.5rem 0;
-}
-
-
-
-
-
-
-.wrapper_wide{
-  width: 90%;
-  margin: 25px auto 0;
-}
-
-.wrapper{
-  width: 80%;
-  margin: 0 auto;
-}
-
-.wrapper_skinny{
-  width: 60%;
-  margin: 0 auto;
-}
-
-
-img{
-  width: 100%;
-  max-width: 100%;
-  border-radius: .35rem .35rem 0 0;
-  height: 300px;
-}
-
-img:hover{
-  opacity: .8;
-}
-/* h2:hover{
-  color: var(--highlight);
-} */
-
-
-
-.podcast_overview{
-  width: 200px;
-  padding: 1rem;
-}
-
-/* .main_header{
-  color: var(--dark);
-  background-color:var(--white);
-  padding: 2.5rem 0;
-} */
-
-/* nav{
-  float: right;
-} */
-
-/* ul{
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-} */
-
-/* nav > ul > li{
-  display: inline;
-  margin-left: 2.5rem;
-} */
 
 .pod-card{
   width: 30%;
@@ -185,12 +44,19 @@ img:hover{
 
 }
 
-
 .logos, .posters, .invitations, .emails, .monograms, .packging, .brochures, .web-images, .pod-card{
-    color: white;
-    text-align: center;
-    height: 300px;
-    width: 30%;
+  color: white;
+  text-align: center;
+  height: 300px;
+  width: 30%;
+}
+
+.logos:hover, .posters:hover, .invitations:hover, .emails:hover, .monograms:hover, .packging:hover, .brochures:hover, .web-images:hover, .pod-card:hover{
+   background-image:
+    linear-gradient(
+      rgba(122, 248, 248, 0.1),
+      rgba(0, 0, 0, 0.9)
+    )
 }
 
 .title{
@@ -288,12 +154,10 @@ a{
 
 .banner{
   background-color: rgb(68, 190, 190);
-  /* height: 60vh; */
   color: white;
   font-size: 230px;
   font-weight: 700;
   text-align: center;
-  /* padding: 40px 0 0; */
   text-transform: uppercase;
   font-family: "Century Gothic";
 }
@@ -301,23 +165,38 @@ a{
 .a-letter{
   font-size: 300px;
   position: relative;
-  top: 50px;
+  top: 53px
+  /* z-index: 1; */
+  /* margin-bottom: 20px; */
+}
+
+.a-letter-link{
+  font-size: 23px;
+  position: relative;
+  top: 6px;
 }
 
 .sub-header{
-  height: 30px;
+  height: 40px;
   background-color: rgb(68, 190, 190);
   margin-bottom: 4rem;
   text-align: center;
 }
 
 .home, .about, .portfolio{
-
   max-width: 700px;
-  /* margin: 0 auto; */
   color: white;
   padding: 0 65px;
 
+}
+
+.home:hover, .about:hover, .portfolio:hover{
+  border-radius: 15px;
+  border: 1px solid white;
+}
+
+.portfolio{
+  /* z-index: 2; */
 }
 
 h1{
@@ -328,8 +207,6 @@ h1{
   letter-spacing: 1px;
   /* padding: 8rem 0; */
 }
-
-
 
 h2{
   margin: 0;
@@ -353,10 +230,6 @@ h2{
   clear: both;
 }
 
-
-
-
-
 .invitation{
   background-color: rgb(68, 190, 190);
   height: 20px;
@@ -364,8 +237,29 @@ h2{
   margin: 20px 0;
   text-align: center;
   color: white;
-  /* padding: 5px 0 7px; */
   font-weight: 600;
 }
 
 
+.tzivia-image{
+  width: 35%;
+  /* display: block; */
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+.home-page-image{
+  width: 100%;
+  height: 100vh;
+}
+
+.home-nav{
+  position: relative;
+  bottom: 120px;
+  background-color: rgb(41, 179, 179);
+}
+/*
+.about-para{
+  background-color: rgb(143, 221, 221);
+  padding: 7px 5px;
+} */
