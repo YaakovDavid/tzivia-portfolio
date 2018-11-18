@@ -1,0 +1,44 @@
+body{
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+img{
+  /* border: 1px solid black; */
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+/* .display-left{
+  position: relative;
+  bottom: 350px;
+  right: 350px;
+  font-size: 20px;
+
+}
+
+.display-right{
+  position: relative;
+  bottom: 350px;
+  left: 350px;
+  font-size: 20px;
+
+} */
+
+.display-left{
+  position: relative;
+  top: 350px;
+  right: 350px;
+  font-size: 20px;
+
+}
+
+.display-right{
+  position: relative;
+  top: 350px;
+  left: 350px;
+  font-size: 20px;
+
+}
